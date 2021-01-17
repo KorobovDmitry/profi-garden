@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Century Gothic";
+  src: url(/fonts/CenturyGothic/CenturyGothic.ttf) format("truetype");
+  font-weight: 400; // 100 || 200 || 300 || 400 || 500 || 600 || 700 || 800 || 900
+  font-style: normal; // normal || italic
+  font-display: swap; // auto || block || swap || fallback || optional
+}
+
+@font-face {
+  font-family: "Century Gothic";
+  src: url(/fonts/CenturyGothic/CenturyGothic-bold.ttf) format("truetype");
+  font-weight: 600; // 100 || 200 || 300 || 400 || 500 || 600 || 700 || 800 || 900
+  font-style: normal; // normal || italic
+  font-display: swap; // auto || block || swap || fallback || optional
+}
+
+@font-face {
+  font-family: "Veles";
+  src: url(/fonts/Veles/Veles-bold.ttf) format("truetype");
+  font-weight: 600; // 100 || 200 || 300 || 400 || 500 || 600 || 700 || 800 || 900
+  font-style: normal; // normal || italic
+  font-display: swap; // auto || block || swap || fallback || optional
+}

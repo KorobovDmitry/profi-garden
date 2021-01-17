@@ -1,0 +1,114 @@
+// Сброс стилей и шрифты подключаются в nuxt.config.js в разделе css
+// Здесь задаются основные стили приложения
+
+// Файл с переменными для стилей
+@import '@/assets/scss/vars.scss';
+
+// подключение шрифтов
+@import '@/assets/scss/fonts.scss';
+
+
+// BASE app style
+body {
+  // background-color: $background;
+  font-family: $centuryGothic;
+}
+
+#__nuxt {
+  font-family: $centuryGothic;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $text;
+}
+
+input, textarea, a, button {
+  font-family: $centuryGothic;
+  font-size: 16px;
+  color: $text;
+  outline: none;
+}
+
+b {
+  font-weight: 600;
+}
+
+.list {
+  li {
+    position: relative;
+    padding-left: 15px;
+    font-size: 16px;
+    line-height: 27px;
+  }
+  li:before {
+    position: absolute;
+    content: '';
+    top: 11px;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    background: $accentLight;
+    border-radius: 50%;
+  }
+}
+
+sup {
+  top: -0.1em;
+  vertical-align: super;
+}
+
+// Standart MARGIN styles
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mb-5 {
+  margin-bottom: 5px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+
+// Максимальные отступы для flex элементов внутри flex контейнера
+.mt-auto {
+  margin-top: auto;
+}
+.mb-auto {
+  margin-bottom: auto;
+}
+.ml-auto {
+  margin-left: auto;
+}
+.mr-auto {
+  margin-right: auto;
+}
+
+// Заполнить возможное пространство
+.fill-area {
+  flex: 1 1 auto;
+}

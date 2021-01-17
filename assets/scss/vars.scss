@@ -1,0 +1,75 @@
+// FONTS
+$centuryGothic: 'Century Gothic', Arial, Helvetica, sans-serif;
+$veles: 'Veles', Arial, Helvetica, sans-serif;
+
+// COLORS
+$background: #f8f5f0;
+
+$secondary: #ff7e00;
+$accentLight: #78b926;
+$accentDark: #517a1a;
+$text: #4c5540;
+$textTitle: #332310;
+
+$gray: #e8e8e8;
+
+$red: #d60000;
+$error: $red;
+
+$white: rgba(255,255,255,1);
+$white10: rgba(255,255,255,.1);
+$white20: rgba(255,255,255,.2);
+$white30: rgba(255,255,255,.3);
+$white40: rgba(255,255,255,.4);
+$white50: rgba(255,255,255,.5);
+$white60: rgba(255,255,255,.6);
+$white70: rgba(255,255,255,.7);
+$white80: rgba(255,255,255,.8);
+$white90: rgba(255,255,255,.9);
+
+$black: rgba(0,0,0,1);
+$black10: rgba(0,0,0,.1);
+$black20: rgba(0,0,0,.2);
+$black30: rgba(0,0,0,.3);
+$black40: rgba(0,0,0,.4);
+$black50: rgba(0,0,0,.5);
+$black60: rgba(0,0,0,.6);
+$black70: rgba(0,0,0,.7);
+$black80: rgba(0,0,0,.8);
+$black90: rgba(0,0,0,.9);
+
+
+
+// TRANSITIONS
+$tr-1: all 1s ease-in-out;
+$tr-01: all .1s ease-in-out;
+$tr-02: all .2s ease-in-out;
+$tr-03: all .3s ease-in-out;
+$tr-04: all .4s ease-in-out;
+$tr-05: all .5s ease-in-out;
+$tr-06: all .6s ease-in-out;
+$tr-07: all .7s ease-in-out;
+$tr-08: all .8s ease-in-out;
+$tr-09: all .9s ease-in-out;
+
+// HOVERS
+$btnHover: 2px 0 5px 1px $black20;
+$btnActive: 2px 0 10px 2px $black30;
+
+// Максимальная ширина контента в контейнере 1400px
+
+// Отступы
+// от верхнего края до названия раздела 80пик
+// от названия раздела до контента 55пик
+// от контента до кнопки 55пик
+// от картинки до названия 25пик
+
+// Параллаксы
+// совет от специалиста
+// обратная связь
+// в футтере трава вправо-влево
+
+// Активности пока какие есть
+// при наведении на кнопку анимация должна быть 
+// в разделе актуальные услуги при наведении на картики меняется на другую
+// совет от специалиста рандомный, разный при каждом обновлении страницы

@@ -1,0 +1,6 @@
+// MIXINS
+@mixin for ($width) {
+  @media screen and (max-width: $width + 'px') {
+    @content
+  }
+};
